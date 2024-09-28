@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rebeccapurple;
+}
+#first {
+    font-family: 'Times New Roman', Times, serif;
+    color: #993352 ;
+}
+
+.bolder{
+    font-weight: bolder;
+}
+.green{
+    color: greenyellow;
+}
+
+.bigger{
+    font-size: 24pt;
+}
+main .bigger{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
