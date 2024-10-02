@@ -1,0 +1,18 @@
+body
+{
+font-family:'Courier New', Courier, monospace;
+font-weight: bolder;
+}
+#camera
+{
+    width: 540px;
+}
+.larger
+{
+    font-size: large;
+}
+.footer
+{
+    font-size: smaller;
+    color: rebeccapurple;
+}
