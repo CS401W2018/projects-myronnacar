@@ -1,0 +1,36 @@
+body
+{
+font-family:'Courier New', Courier, monospace;
+font-weight: bolder;
+background: url('texturedbg.jpg') #f1f1f1fa
+
+}
+#camera
+{
+    width: 540px;
+    filter: drop-shadow(5px 5px 15px);
+}
+.larger
+{
+    font-size: large;
+}
+.footer
+{
+    font-size: smaller;
+    color: rebeccapurple;
+}
+.list li
+{
+    /*list-style-image: url('cambullet2.png');*/
+    
+    margin-top: 10px;
+    background-image: url('cambullet2.png');
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: 0 -2px;
+}
+.list
+{
+    font-size: larger;
+    list-style: none;
+}

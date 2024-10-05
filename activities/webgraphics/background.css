@@ -1,0 +1,41 @@
+body
+{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    background: url('texturedbg.jpg') #f1f1f1fa;
+}
+header
+{
+    background: url('shutter.png') right center no-repeat
+}
+#camera
+{
+    width: 540px;
+    filter: drop-shadow(5px 5px 15px);
+}
+.larger
+{
+    font-size: large;
+}
+.footer
+{
+    font-size: smaller;
+    color: rebeccapurple;
+}
+.list
+{
+    font-size: larger;
+    list-style: square;
+    list-style-image: url('cambullet2.png');
+}
+nav a
+{
+    color: rebeccapurple;
+    font-size: large;
+}
+.current
+{
+    color:rgb(71, 71, 71)
+}
+
+
