@@ -27,12 +27,12 @@ nav a
     list-style: square;
     list-style-image: url('maple.png');
 }
-.image
+.side image
 {
     background: url('flag.png') top right no-repeat;
 }
 
-#image
+.image
 {
     width: 540px;
     filter: drop-shadow(5px 5px 15px);
