@@ -1,0 +1,65 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    color: #32194c;
+    background: url('texturedbg2.jpg') #f1f1f1fa;
+}
+header
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+nav a
+{
+    color: #99324c;
+    font-size: larger;
+    font-weight: bolder;
+}
+.current
+{
+    color:rgb(71, 71, 71)
+}
+.list
+{
+    font-weight: bolder;
+    font-size: larger;
+    list-style: square;
+    list-style-image: url('maple.png');
+}
+.image
+{
+    background: url('flag.png') top right no-repeat;
+}
+
+#image
+{
+    width: 540px;
+    filter: drop-shadow(5px 5px 15px);
+}
+.footer
+{
+    font-size: smaller;
+    font-weight: bolder;
+    color: rebeccapurple;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
