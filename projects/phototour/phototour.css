@@ -10,7 +10,7 @@ header
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: larger;
 }
-nav a
+nav 
 {
     color: #99324c;
     font-size: larger;
@@ -18,7 +18,7 @@ nav a
 }
 .current
 {
-    color:rgb(71, 71, 71)
+    color:rgb(71, 71, 71);
 }
 .list
 {
