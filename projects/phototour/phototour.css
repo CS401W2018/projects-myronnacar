@@ -27,7 +27,7 @@ nav
     list-style: square;
     list-style-image: url('maple.png');
 }
-.side image
+.sideimage
 {
     background: url('flag.png') top right no-repeat;
 }
