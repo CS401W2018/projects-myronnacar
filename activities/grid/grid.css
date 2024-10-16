@@ -1,0 +1,67 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+main h2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;  
+}
+
+
+.container
+{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 200px;
+    grid-template-areas:
+    "header1 header2 header3"
+    "main1 main2 main3";
+    margin-bottom: 10px;
+
+}
+.item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 10px 10px;
+    padding-left: 10px; 
+}
+.itemA {grid-area: header1;}
+.itemB {grid-area: header2;}
+.itemC {grid-area: header3;}
+.itemD {grid-area: main1;}
+.itemE {grid-area: main2;}
+.itemF {grid-area: main3;}
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    height: 25px;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
