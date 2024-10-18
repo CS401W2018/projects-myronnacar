@@ -1,0 +1,20 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container
+{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+
+}
+
+.item
+{
+    background-color: aliceblue;
+    padding: 10px 5px;
+    width: 50px;
+}
