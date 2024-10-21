@@ -1,0 +1,160 @@
+/*fonts*/
+@font-face
+{
+    font-family: 'Sneak';
+    src: url(sneak.ttf);
+    
+}
+@font-face
+{
+    font-family: 'Sneak2';
+    src: url(sneak2.ttf);
+    
+}
+ 
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*header layout*/
+header
+{
+    font-family: 'Sneak', Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+    color: rebeccapurple;
+    height: 60px;
+    background-color: rgb(240, 239, 239);
+
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 50px
+}
+
+/*navigation layout*/
+.link
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    height: 30px;
+    margin: 0px 0px 10px 0px;
+}
+
+nav a
+{
+    display: block;
+    text-decoration: none;
+    
+    color: #EEF1EF;
+    font-family: 'Sneak2', Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 25px 
+}
+nav a:hover
+{
+    
+    background-color: #EEF1EF;
+    color: rebeccapurple ;
+}
+
+/*grid layout*/
+.container
+{
+    background-color: rgb(240, 239, 239);
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    
+    
+}
+
+.side
+{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    background-color: white
+}
+aside h2
+{
+    margin: 15px auto;
+    text-align: center;
+}
+aside p
+{
+    margin: 10px;
+    text-align: justify;
+}
+
+.maincontent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.image
+{
+    width: 300px;
+    
+}
+.photocontainer
+{
+    width: 300px;
+    padding: 5px 5px 0px 5px;
+    border: thin solid black;
+    box-shadow: 5px 10px 20px #474747
+    
+}
+figcaption h3
+{
+    margin: 0px;
+}
+figcaption p
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: smaller;
+}
+
+.footcontainer
+{
+    display: grid;
+    margin: 30px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-auto-flow: column;
+}
+footer div a
+{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-small;  
+    padding: 5px;
+    color: rebeccapurple
+    
+}
+footer div a:hover
+{
+    color: green;
+}
+
+.footerline
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    height: 20px;
+    color: #EEF1EF;
+    text-align: center;
+    font-size: small;
+}
