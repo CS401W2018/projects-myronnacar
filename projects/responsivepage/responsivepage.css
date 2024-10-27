@@ -1,0 +1,203 @@
+@font-face 
+{
+    font-family: 'bluey';
+    src: url(blueyhead.ttf);
+}
+
+@font-face 
+{
+    font-family: 'bluey2';
+    src: url(blueynav.otf);
+}
+
+body
+{
+    background-image: linear-gradient(to bottom,#89cafc,#d2ebff );
+    background-color: #d2ebff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header
+{
+    font-family: 'bluey', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    text-shadow: 3px 3px white;
+    background-color: #d2ebff;
+    color: #404066;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 20px;
+    
+}
+nav
+{
+   
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   background-color: white;
+   height: auto;
+   border-radius: 20px;
+   margin: 5px;
+   padding: 3px;
+}
+
+nav a
+{
+    display: block;
+    font-family: 'bluey2', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin: 0 50px;
+    text-decoration: none;
+    color: #374878;
+    padding: 5px 5px 0 5px;
+}
+
+nav a:hover
+{
+    color: white;
+    background-color:#374878;
+    border-radius: 20px; 
+}
+
+.sub
+{
+    font-family: 'bluey2', Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #435b9c;
+    background-color: #d2ebff;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.side
+{
+  width:20%;
+  margin: 10px;
+  color: white;
+  
+}
+.center
+{
+    text-align: center;
+    color: #435b9c;
+}
+.bold
+{
+    font-weight: bolder;
+}
+
+article
+{
+    font-weight: bolder;
+    line-height: 1.6;
+    margin: 10px;
+    
+}
+main li
+{
+    color: #435b9c;
+    font-weight: bolder;
+    list-style: none;
+    background-image: url(paw.png);
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    padding-bottom: 5px;
+    background-position: 0 -2px;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card
+{
+  width: 360px;
+  margin: 10px;
+  box-shadow: 10px 10px 15px #404066;
+  
+}
+
+.image
+{
+    width: 100%;
+    box-shadow: 10px 10px 20px #404066;
+}
+footer
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    color: #435b9c;
+}
+
+
+
+@media only screen and (max-width: 750px)
+{
+
+  nav
+  {
+    flex-direction: column;
+    height: auto;
+  }
+  nav a 
+  {
+    text-decoration: underline;
+  }
+  nav a:hover
+  {
+    color: white;
+    background-color:#374878;
+    border-radius: 20px; 
+    text-decoration: none;
+  }
+
+  .container
+  {
+    flex-wrap: wrap;
+  }
+  .card
+  {
+    width: 100%;
+    
+  }
+  .side
+  {
+    width: 100%;
+  }
+  
+  .last
+  {
+    order: 5;
+  }
+
+
+}
+
+@media print
+{
+    header
+    {
+        display: none;
+    }
+    nav
+    {
+        display: none;
+    }
+    main li 
+    {
+        list-style-type: disc;
+    }
+    footer 
+    {
+        display: none;
+    }
+}
+
