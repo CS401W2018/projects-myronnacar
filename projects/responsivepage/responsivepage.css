@@ -75,17 +75,53 @@ nav a:hover
     border-radius: 20px;
 }
 
+.container
+{
+    display: flex;
+}
+
+.card
+{
+  width: 340px;
+  margin: 10px;
+  box-shadow: 10px 10px 5px #51618f;
+  border-radius: 20px;
+  background-color: rgb(175, 208, 255);
+  
+}
+.content
+{
+  display: grid;
+  grid-template-rows: 0.05fr auto;
+  width: auto;
+  margin: 3px 10px;
+  background-color: #374878;
+  border-radius: 20px;
+}
+.subhead
+{
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+.contentcards
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .side
 {
-  width:20%;
-  margin: 10px;
+  width: 30%;
   color: white;
-  
+  padding: 10px 10px;
+  background-color: #51618f;
+  border-radius: 20px;
+  margin: 3px 0;
 }
 .center
 {
     text-align: center;
-    color: #435b9c;
+    
 }
 .bold
 {
@@ -103,29 +139,19 @@ article
 }
 main li
 {
-    color: #435b9c;
     font-weight: bolder;
-    list-style: none;
+    list-style-type: none;
     background-image: url(paw.png);
     background-repeat: no-repeat;
     padding-left: 25px;
     padding-bottom: 5px;
     background-position: 0 -2px;
+    margin: 0;
 }
 
-.container
-{
-    display: flex;
-    justify-content: space-between;
-}
 
-.card
-{
-  width: 360px;
-  margin: 10px;
-  box-shadow: 10px 10px 15px #404066;
-  
-}
+
+
 
 .image
 {
