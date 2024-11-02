@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table CSS</title>
+    <link rel="stylesheet" href="tablescss.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Class Schedule
+        </h1>
+    </header>
+    <main>
+        <table class="schedule">
+            <thead>
+                <tr><th>Dept.</th><th>Number</th><th>Time</th><th>Location</th><th>Credits</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5">Information Technology</th>
+                </tr>
+                <tr><td>IT</td><td>240</td><td>11am</td><td rowspan="2">P3</td><td>3</td></tr>
+                <tr><td>IT</td><td>240</td><td>12pm</td><td>3</td></tr>
+                <tr>
+                    <th colspan="5">Computer Science</th>
+                </tr>
+                <tr><td>CS</td><td>210</td><td>2pm</td><td>P1</td><td>3</td></tr>
+                <tr><td>CS</td><td>211</td><td>12pm</td><td>P2</td><td>3</td></tr>
+            </tbody>
+            <tfoot>
+                <th colspan="4" id="total-credits">Total Credits</th>
+                <td headers="total-credits">12</td>
+            </tfoot>
+        </table>
+        <h2>Engagement Questions</h2>
+        <p>
+            1. Why don't we use the border property?
+            <br>
+            -We don't use the border property because it is an invalid HTML style.
+            <br><br>
+            2. What is the easiest way to color every other row a different color?
+            <br>
+            -We can use the pseudo class nth child odd or even to color every other row of our table.
+            <br><br>
+            3. When should we use a table?
+            <br>
+            -We use a table when we want to display a table of data on our webpages.
+        </p>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 Myron Spencer Nacar
+        </p>
+    </footer>
+</body>
+</html>
