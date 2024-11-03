@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Score';
+    src: url(segment.ttf);
+}
+
+@font-face {
+    font-family: 'Sneak';
+    src: url(sneak2.ttf);
+}
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header
+{
+    font-family: 'Score', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: larger;
+    height: 60px;
+    background-color: black;
+    background-image: url(net.png);
+    background-repeat: no-repeat;
+    background-position: 10px -3px;
+
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 0px 75px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8e8;
+    height: 30px;
+    margin: 0 0 3px 0;
+}
+
+nav a
+{
+    display: block;
+    text-decoration: none;
+    
+    color: black;
+    font-family: 'Sneak', Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 25px 
+}
+nav a:hover
+{
+    
+    background-color: black;
+    color: white;
+}
+
+.container
+{   
+    display: flex;
+    margin: 0;
+}
+.left
+{
+    flex-grow: 1;
+   
+}
+.right
+{   width: 15%;
+    padding: 10px 20px;
+    background-color: #e4e7ec;
+}
+caption
+{
+    font-weight: bolder;
+    text-align: left;
+}
+thead
+{
+    background-color: #e8e8e8;
+}
+.eastern
+{
+    margin: 10px auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+    
+}
+
+.east
+{
+    background-color: #1D428A;
+    color: white;
+}
+.eastwest
+{
+    text-align: left;
+    
+}
+.eastern thead tr, .eastern thead th
+{
+    padding: 10px 43px;
+}
+.eastern tbody tr
+{
+    text-align: center;
+    
+    
+}
+.eastern tbody tr:nth-child(even)
+{
+    background-color: #1D428A;
+    color: white;
+    
+}
+
+.west
+{
+    background-color: #CB102E;
+    color: white;
+}
+.western
+{
+    margin: 10px auto;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.western
+{
+    text-align: left;
+}
+.western thead tr, .western thead th
+{
+    padding: 10px 40px;
+
+}
+.western tbody tr
+{
+    text-align: center;
+    
+}
+.western tbody tr:nth-child(even)
+{
+    background-color: #CB102E;
+    color: white;
+    
+}
+.image
+{
+    width: 100%;
+}
+footer
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+    height: 15px;
+    margin: 5px auto;
+    background-color: black;
+    color: white
+    
+    
+}
+
+
+
