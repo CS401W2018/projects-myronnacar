@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post">
+           First Name: <input type="text" name="first" value="Joe" required="required"><br>
+           Last Name: <input type="text" name="last" placeholder="Last Name"><br>
+           Password: <input type="password" name="pass">
+           <br>
+           <input type="checkbox" name="remember" checked> Remember Me 
+           <br>
+           Grade: <br>
+           <input type="radio" name="grade" value="Freshman"> Freshman <br>
+           <input type="radio" name="grade" value="Sophomore"> Sophomore <br>
+           <input type="radio" name="grade" value="Junior"> Junior <br>
+           <input type="radio" name="grade" value="Senior"> Senior <br>
+           <select name="State" id="State">
+            <option value="Hawaii"></option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Utah">Utah</option>
+            <option value="Hawaii">Colorado</option>
+            <option value="Hawaii">California</option>
+           </select><br>
+           <textarea name="comment" id=""></textarea>
+           <input type="submit">
+           <input type="button" value="Login">
+           
+        </form>
+
+        <h2>Engagement Question</h2>
+        <p>
+            1. The form tag has an "action" attribute. What does it do?
+            <br>
+            -The action attribute specifies where to send the form-data when a form is submitted. <br><br>
+
+            2. The form tag has a "method" attribute. What does it do?
+            <br>
+            -The method attribute specifies how to send form-data. Either 'Get' or 'Post'
+            <br><br>
+            3. What is the difference between a "POST" and a "GET"?
+            <br>
+            -GET is used to request data from a specified resource. POST is used to send data to a server to create/update a resource.
+            
+        </p>
+    </main>
+    <footer>
+        <p>&copy;2024 Myron Spencer Nacar</p>
+    </footer>
+</body>
+</html>
