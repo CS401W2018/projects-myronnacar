@@ -1,0 +1,52 @@
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset
+{
+    box-shadow: 3px 3px 3px lightgray;
+    background-color: aliceblue;
+}
+
+legend
+{
+    border: thin solid black;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.form-row
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+   
+}
+
+.form-row label 
+{
+    width: 150px;
+    text-align: right;
+    
+}
+.form-row input:focus
+{
+    background-color: azure;
+}
+.check-row  
+{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.spacer
+{
+    width: 150px;
+    text-align: right;
+}
+.spacer-row
+{
+    width: 93px;
+}

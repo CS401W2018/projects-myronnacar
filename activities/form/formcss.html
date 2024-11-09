@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="formcss.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post">
+            <fieldset>
+                <legend>Sign Up</legend>
+            <div class="form-row">
+                <label for="fname">First Name:</label>
+                <input id="fname" type="text" name="first" value="Joe" required="required">
+            </div>
+
+            <div class="form-row">
+                <label for="lname">Last Name:</label>
+                <input id="lname" type="text" name="last" placeholder="Last Name">
+            </div>
+
+            <div class="form-row">
+                <label for="pw">Password:</label> 
+                <input id="pw" type="password" name="pass">
+            </div>
+                       
+            <div class="check-row">
+                <div class="spacer"></div>
+                <label>
+                    <input type="checkbox" name="remember" checked> Remember Me 
+                </label>
+            </div>
+
+            <div class="check-row">
+                <div class="spacer-row"></div>
+                Class:
+                <label><input type="radio" name="class" value="Freshman">Freshman</label>
+                <label><input type="radio" name="class" value="Sophomore">Sophomore</label>
+            </div>
+          
+            <div class="form-row">
+                <label for="State">State</label>
+                <select name="State" id="State">
+                    <option value="Hawaii"></option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Hawaii">Colorado</option>
+                    <option value="Hawaii">California</option>
+                </select>
+            </div>
+           
+            <div class="form-row">
+                <label for="comments">Comments</label>
+                <textarea name="comment" id="comments"></textarea>
+            </div>
+           
+            <div class="form-row">
+                <div class="spacer"></div>
+                    <input type="submit">
+                
+            </div>
+        </fieldset>
+        </form>
+
+        <h2>Engagement Question</h2>
+        <p>
+            1. What are different ways to style your form?
+            <br>
+            -We can can use the fieldset, legend, and div tags. <br><br>
+
+            2. Why does the professor like to use flex?
+            <br>
+            -Because flex is very useful for forms especially if we want to make it responsive.
+            <br>
+            
+        </p>
+    </main>
+    <footer>
+        <p>&copy;2024 Myron Spencer Nacar</p>
+    </footer>
+</body>
+</html>
