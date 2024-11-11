@@ -90,6 +90,13 @@ input[type="submit"]
     background-color: white;
     border-radius: 10px;
 }
+footer
+{
+    background-color: #E10600;
+    color: white;
+    font-size: x-small;
+    text-align-last: center;
+}
 
 
 @media only screen and (max-width: 600px)
