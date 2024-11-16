@@ -31,7 +31,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
             document.getElementById("myForm").innerHTML = "";
             document.getElementById("engage").innerHTML = "";
             document.getElementById("questions").innerHTML = "";
-        } else if (xhr.readyState === 4){
+        } else if (xhr.readyState === 400){
             alert('Error submitting form.');
         }
     };
