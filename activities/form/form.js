@@ -18,7 +18,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
     const formData = {
         firstName: FirstName,
         lastName: LastName,
-        Age : Age,
+        Age : Age
 
     }
     const xhr = new XMLHttpRequest();
