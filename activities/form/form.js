@@ -21,7 +21,7 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
         Age : Age,
 
     }
-    const xhr = new XMLHttpsRequest();
+    const xhr = new XMLHttpRequest();
     xhr.open("POST", "submit.json", true);
     xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
     xhr.onreadystatechange = function () {
