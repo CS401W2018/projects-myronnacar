@@ -31,11 +31,11 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
             document.getElementById("myForm").innerHTML = "";
             document.getElementById("engage").innerHTML = "";
             document.getElementById("questions").innerHTML = "";
-        } else if (xhr.readyState === 400){
+        } else if (xhr.readyState === 4){
             alert('Error submitting form.');
         }
     };
     xhr.send(JSON.stringify(formData));
     console.log(formData);
     
-})
+});
