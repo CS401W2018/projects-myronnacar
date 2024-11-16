@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="formajax.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <div id="banner"></div>
+        <form action="processing.html" method="post" id="myForm">
+            <fieldset>
+                <legend>Sign Up</legend>
+            <div class="form-row">
+                <label for="fname">First Name:</label>
+                <input id="fname" type="text" name="first" value="Myron">
+            </div>
+
+            <div class="form-row">
+                <label for="lname">Last Name:</label>
+                <input id="lname" type="text" name="last" value="Nacar">
+            </div>
+
+            <div class="form-row">
+                <label for="age">Age:</label>
+                <input id="age" type="number" name="age" value="18">
+            </div>
+
+            <div class="form-row">
+                <label for="pw">Password:</label> 
+                <input id="pw" type="password" name="pass">
+            </div>
+                       
+            <div class="check-row">
+                <div class="spacer"></div>
+                <label>
+                    <input type="checkbox" name="remember" checked> Remember Me 
+                </label>
+            </div>
+
+            <div class="check-row">
+                <div class="spacer">Class:</div>
+                <label><input type="radio" name="class" value="Freshman">Freshman</label>
+                <label><input type="radio" name="class" value="Sophomore">Sophomore</label>
+            </div>
+          
+            <div class="form-row">
+                <label for="State">State</label>
+                <select name="State" id="State">
+                    <option value=""></option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Hawaii">Colorado</option>
+                    <option value="Hawaii">California</option>
+                </select>
+            </div>
+           
+            <div class="form-row">
+                <label for="comments">Comments</label>
+                <textarea name="comment" id="comments"></textarea>
+            </div>
+           
+            <div class="form-row">
+                <div class="spacer"></div>
+                    <input type="submit">
+                
+            </div>
+        </fieldset>
+        </form>
+
+        <h2 id="engage">Engagement Question</h2>
+        <p id="questions">
+            1. What is AJAX?
+            <br>
+            -AJAX stands for Asynchronous JavaScript and XML. It allows web applications to send and receive date in the background, so that only small portions of the page refresh when a user interacts with the applications.
+            <br><br>
+            2. Why do you put your JS Code in a separate file?
+            <br>
+            -It makes the HTML and JavaScript easier to read and maintain.
+            <br>            
+        </p>
+    </main>
+    <footer>
+        <p>&copy;2024 Myron Spencer Nacar</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>
