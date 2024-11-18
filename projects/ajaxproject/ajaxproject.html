@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ajaxproject.css" media="screen">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <h1>The Treasure Map</h1>
+    </header>
+    <main>
+        <h2 id="checkout">SIGN UP</h2>
+        <div id="banner" class="successprompt"></div>
+        <form id="checkform" action="processing.html" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+            <div class="check-row">
+                <div class="spacer">Salutation</div>
+                <label><input type="radio" name="salutation" value="Mr">Mr</label>
+                <label><input type="radio" name="salutation" value="Ms">Ms</label>
+            </div>
+
+            <div class="form-row">
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" name="first">
+            </div>
+
+            <div class="form-row">
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" name="last">
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email">
+            </div>
+
+            <div class="form-row">
+                <label for="age">Age</label>
+                <input id="age" type="number" name="age">
+            </div>
+
+            <div class="form-row">
+                <label for="bday">Birthdate</label>
+                <input id="bday" type="date" name="bday" >
+            </div>
+
+            <div class="form-row">
+                <label for="pw">Password</label> 
+                <input id="pw" type="password" name="pass">
+            </div>
+
+            <div class="form-row">
+                <label for="cpw">Confirm Password</label> 
+                <input id="cpw" type="password" name="cpass">
+            </div>
+                       
+            <div class="check-row">
+                <div class="spacer"></div>
+                <label>
+                    <input type="checkbox" name="news" checked>Subscribe to Newsletter
+                </label>
+            </div>
+
+            <div class="check-row">
+                <div class="spacer"></div>
+                <label for="terms">
+                    <input id="terms" type="checkbox" name="agree">Agree to Terms and Condtions
+                </label>
+            </div>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Mailing Address</legend>
+
+                <div class="form-row">
+                    <label for="street">Street Address</label>
+                    <input id="street" type="text" name="street">
+                </div>
+
+                <div class="form-row">
+                    <label for="apt">Apt, suite, etc. (optional)</label>
+                    <input id="apt" type="text" name="apt">
+                </div>
+
+                <div class="form-row">
+                    <label for="city">City</label>
+                    <input id="city" type="text" name="city"> 
+                </div>
+
+                <div class="form-row">
+                    <label for="State">State</label>
+                    <select name="State" id="State">
+                        <option value="">Select State</option>
+                        <option value="Alabama">AL</option>
+                        <option value="Alaska">AK</option>
+                        <option value="Arizona">AZ</option>
+                        <option value="Arkansas">AR</option>
+                        <option value="California">CA</option>
+                        <option value="Coloradp">CO</option>
+                        <option value="Connecticut">CT</option>
+                        <option value="District of Columbia">DC</option>
+                        <option value="Delaware">DE</option>
+                        <option value="Florida">FL</option>
+                        <option value="Georgia">GA</option>
+                        <option value="Hawaii">HI</option>
+                        <option value="Idaho">ID</option>
+                        <option value="Illinois">IL</option>
+                        <option value="Indiana">IN</option>
+                        <option value="Iowa">IA</option>
+                        <option value="Kansas">KS</option>
+                        <option value="Kentucky">KY</option>
+                        <option value="Louisiana">LA</option>
+                    </select>
+                </div>
+               
+                <div class="form-row">
+                    <label for="delivery">Delivery Instructions</label>
+                    <textarea name="delivery" id="delivery"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <div class="spacer"></div>
+                        <input type="submit" value="Complete Sign-up">
+                </div>
+            </fieldset>
+                     
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 Myron Spencer Nacar</p>
+    </footer>
+    <script src="ajaxproject.js"></script>
+</div>
+</body>
+</html>

@@ -46,3 +46,9 @@ legend
     width: 150px;
     text-align: right;
 }
+.success
+{
+    font-size: xx-large;
+    color: blue;
+    font-weight: bolder;
+}
