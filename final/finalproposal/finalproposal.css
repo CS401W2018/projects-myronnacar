@@ -1,0 +1,25 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    background-image: linear-gradient(to bottom,#000000,#363131 );
+}
+
+header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.wrapper
+{
+    
+    width: 900px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: white;
+}
