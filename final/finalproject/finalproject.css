@@ -19,7 +19,7 @@ body
 /*background*/
 .background1
 {   
-    background-image: url('bg1.JPG');
+    background-image: url('smallbg1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -29,7 +29,7 @@ body
 
 .background2
 {
-    background-image: url('bg2.JPG');
+    background-image: url('smallbg2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
