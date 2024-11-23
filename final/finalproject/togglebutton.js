@@ -1,6 +1,6 @@
 const togglebutton = document.querySelector(".togglebutton")
-        const togglebuttonicon = document.querySelector(".togglebutton i")
-        const dropdown = document.querySelector(".dropdown")
+const togglebuttonicon = document.querySelector(".togglebutton i")
+const dropdown = document.querySelector(".dropdown")
 
         togglebutton.onclick  = function()
         {
