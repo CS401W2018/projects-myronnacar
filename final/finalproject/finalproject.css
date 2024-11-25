@@ -498,7 +498,7 @@ footer
 
 .about
 {
-    background-image: url(grainybg.JPG);
+    background-image: url(grainy.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -610,7 +610,7 @@ footer
 table
 {
     width: 100%;
-    background-image: url(grainybg.JPG);
+    background-image: url(grainy.jpg);
     color: white;
     padding: 20px;
     border-collapse: collapse;
@@ -659,7 +659,7 @@ tbody tr:nth-child(even)
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-image: url(grainybg.JPG);
+    background-image: url(grainy.jpg);
     
 }
 
