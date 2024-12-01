@@ -581,7 +581,7 @@ footer
 {
     font-size: 290%;
     font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: rgb(43, 43, 43);
     font-weight: 900;
     margin-bottom: 10px;
     text-align: left;
@@ -595,7 +595,7 @@ footer
     font-weight: 600;
     font-size: large;
     line-height: 1.5;
-    color: black;
+    color: rgb(43, 43, 43);
 }
 .gearcontent span
 {
@@ -604,7 +604,7 @@ footer
 .gearcontent a
 {
     text-decoration: none;
-    font-weight: 999;
+    font-weight: 900;
     color: rebeccapurple;
     
 
@@ -662,7 +662,6 @@ footer
 .contenttable_container
 {
     background-color: white;
-    border: thin solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -694,7 +693,7 @@ caption
     font-size: 280%;
     font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
-    color: black;
+    color: rgb(43, 43, 43);
     text-align: left;
     padding: 10px;
 }
@@ -720,7 +719,7 @@ th, td
 tbody tr:nth-child(even)
 {
     color: black;
-    background-color: white
+    background-color: white;
 }
 
 /*extra tips*/
