@@ -1010,6 +1010,75 @@ input[type=submit]
     
 }
 
+/* street gallery */
+
+.streetgallery
+{
+    background-image: url(grainy2.jpg);
+    padding: 30px 20px;
+}
+.photocontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cards
+{
+    max-width: 300px;
+}
+.cards img
+{
+    width: 100%;
+}
+
+.streetsource
+{
+    background-image: url(grainy.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.extrastreet_content span
+{
+    font-weight: 900;
+}
+.extrastreet_content
+{
+    width: 600px;
+    padding: 20px;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    line-height: 1.5;
+    color: white;
+}
+
+.extrastreet_content a
+{
+    text-decoration: none;
+    color: rgb(121, 174, 218);
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.extrastreet_content a:hover
+{
+    color: rebeccapurple;
+}
+
+.extrastreet_title
+{
+    font-size: 260%;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 900;
+    
+}
 
 /*responsive design*/
 
