@@ -523,7 +523,7 @@ footer
 .aboutphoto
 {
     width: 500px;
-    padding: 30px;
+    padding: 10px;
     margin: 30px;
     background-color:white;
     box-shadow: 5px 5px 5px black;
@@ -538,6 +538,17 @@ footer
     font-size: large;
     line-height: 1.5;
     color: white;
+}
+
+.aboutcontent a
+{
+    font-weight: 900;
+    color: rgb(121, 174, 218);
+    text-decoration: none;
+}
+.aboutcontent a:hover
+{
+    color: rebeccapurple;
 }
 .aboutcontent_title
 {
@@ -557,6 +568,51 @@ footer
     width: 100%;
 }
 
+/* about page source - gears */
+.gears
+{
+    background-image: url(grainy2.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gearcontent_title
+{
+    font-size: 290%;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 10px;
+    text-align: left;
+    letter-spacing: -1px;
+}
+.gearcontent
+{
+    width: 500px;
+    padding: 20px;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    line-height: 1.5;
+    color: black;
+}
+.gearcontent span
+{
+    font-weight: 999;
+}
+.gearcontent a
+{
+    text-decoration: none;
+    font-weight: 999;
+    color: rebeccapurple;
+    
+
+}
+.gearcontent a:hover
+{
+    color: rgb(52, 153, 236);
+}
 
 /*table page*/
 
@@ -694,6 +750,27 @@ tbody tr:nth-child(even)
     color: white;
 }
 
+.subscribe
+{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.yt 
+{
+    padding-top: 6px 0;
+}
+
+.ytlink a
+{
+   color: rgb(121, 174, 218);
+   text-decoration: none;
+}
+.ytlink a:hover
+{
+   color: rebeccapurple;
+}
 
 .extracontent_title
 {
@@ -872,7 +949,7 @@ input[type=submit]
     
 }
 
-/* street page */
+/* urban page */
 
 .streetbanner
 {
@@ -961,7 +1038,7 @@ input[type=submit]
     display: flex;
     gap: 20px; 
     position: absolute;
-    bottom: -40px;
+    bottom: -30px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -1010,7 +1087,7 @@ input[type=submit]
     
 }
 
-/* street gallery */
+/* urban gallery */
 
 .streetgallery
 {
@@ -1079,6 +1156,23 @@ input[type=submit]
     font-weight: 900;
     
 }
+
+
+/* portrait page */
+.portraitbanner
+{
+    background-image: url('portbanner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 65vh;
+}
+
+/* used the same classes from urban page */
+
+
+
 
 /*responsive design*/
 
