@@ -1,0 +1,118 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+nav
+{
+    position: relative;
+    padding: 10px 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: thin solid black;
+}
+
+li
+{
+    list-style-type: none;
+}
+.links
+{
+    display: flex;
+    gap: 40px;
+    border: thin solid black;
+}
+
+.togglebutton
+{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.dropdown
+{
+    display: none;
+    position: absolute;
+    right: 5px;
+    top: 53px;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown.open
+{
+    height: calc(100vh - 55px);
+}
+.dropdown li
+{
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    
+}
+
+.background1
+{   
+    background-image: url('smallbg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.background2
+{
+    background-image: url('smallbg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.background3
+{
+    background-image: url('smallbg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    .links
+    {
+        display: none;
+    }
+    .togglebutton
+    {
+        display: block;
+    }
+    .dropdown
+    {
+        display: block;
+        left: 5px;
+        width: unset;
+    }
+}

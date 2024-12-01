@@ -50,6 +50,7 @@ body
 }
 
 
+
 /*navigation bar*/
 
 .links li
@@ -182,19 +183,23 @@ body
     height: calc(100vh - 50px);
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     flex-direction: column;
+    gap: 10px;
     
 } 
 
 .content_home
 {
+
     align-self: flex-end;
-    max-width: 700px;
-    min-width: 40%;
-    margin-top: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: auto;
     margin-left: 30px;
     margin-right: 30px;
+    max-width: 500px;
+    min-width: 40%;
 }
 
 .content_home p
@@ -203,7 +208,6 @@ body
     font-weight: 400;
     font-size: large;
     line-height: 1.5;
-    text-align: justify;
     color: white;
 }
 
@@ -222,26 +226,23 @@ body
 
 .buttonhome
 {
-    margin-top: 15px;
+    margin-top: 10px;
+    padding: 15px 0;
 }
-
-.buttonhome_a
+.buttonhome a
 {
-    display: block;
     text-decoration: none;
-    width: 350px;
-    padding: 20px;
-    text-align: center;
     font-size: large;
     font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
+    padding: 15px 15px;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: -2px 2px 2px rgba(255, 255, 255, 0.493);
     
 }
 
-.buttonhome_a:hover
+.buttonhome a:hover
 {
     color: black;
     background-color: rgba(255, 255, 255, 0.7);
@@ -253,8 +254,7 @@ body
 .photodesc1
 {
     margin-top: auto;
-    margin-bottom: 50px;
-    height: 50px;
+    margin-bottom: auto;
     color: white;
     font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 100;
@@ -268,19 +268,25 @@ body
 {
     height: 100vh;
     display: flex;
-    gap: 10px;
     flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    
     
 } 
 
 .content_street
 {
-    max-width: 700px;
-    min-width: 40%;
+    align-self: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     margin-top: auto;
     margin-left: 30px;
     margin-right: 30px;
-    align-self: flex-start;
+    max-width: 500px;
+    min-width: 40%;
+    
 }
 
 .content_street h1
@@ -298,7 +304,6 @@ body
     font-weight: 400;
     font-size: large;
     line-height: 1.5;
-    text-align: justify;
     color: white;
     
 }
@@ -310,25 +315,23 @@ body
 
 .buttonstreet
 {
-    margin-top: 20px;
+    margin-top: 10px;
+    padding: 15px 0;
 }
 
-.buttonstreet_a
+.buttonstreet a
 {
-    display: block;
     text-decoration: none;
-    width: 350px;
-    padding: 20px;
-    text-align: center;
     font-size: large;
     font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
+    padding: 15px 15px;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: -2px 2px 2px rgba(255, 255, 255, 0.493);
 }
 
-.buttonstreet_a:hover
+.buttonstreet a:hover
 {
     color: black;
     background-color: rgba(255, 255, 255, 0.7);
@@ -342,19 +345,22 @@ body
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     flex-direction: column;
+    gap: 10px;
     
 } 
 
 .content_portrait
 {
     align-self: flex-end;
-    max-width: 700px;
-    min-width: 40%;
-    margin-top: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: auto;
     margin-left: 30px;
     margin-right: 30px;
+    max-width: 500px;
+    min-width: 40%;
 }
 
 .content_portrait p
@@ -363,7 +369,6 @@ body
     font-weight: 400;
     font-size: large;
     line-height: 1.5;
-    text-align: justify;
     color: white;
 }
 
@@ -380,28 +385,26 @@ body
     padding-bottom: 10px;
 }
 
-.buttonport{
-    margin-top: 15px;
-    
+.buttonport
+{
+    margin-top: 10px;
+    padding: 15px 0;
 }
 
-.buttonport_a
+.buttonport a
 {
-    display: block;
     text-decoration: none;
-    width: 350px;
-    padding: 20px;
-    text-align: center;
     font-size: large;
     font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
+    padding: 15px 15px;
     background-color: rgba(0, 0, 0, 0.7);
     box-shadow: -2px 2px 2px rgba(255, 255, 255, 0.493);
     
 }
 
-.buttonport_a:hover
+.buttonport a:hover
 {
     color: black;
     background-color: rgba(255, 255, 255, 0.7);
@@ -466,7 +469,7 @@ footer
 
 .titlecontainer
 {
-    height: 59.5vh;
+    height: 65vh;
     background-color: rgba(0, 0, 0, 0.35);
     display: flex;
     align-items: center;
@@ -492,12 +495,12 @@ footer
     font-weight: 400;
     font-size: large;
     line-height: 1.5;
-    text-align: justify;
     color: white;
 }
 .desc 
 {
     margin-top: auto;
+    margin-bottom: 50px;
     height: 50px;
     color: white;
     font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
@@ -534,7 +537,6 @@ footer
     font-weight: 400;
     font-size: large;
     line-height: 1.5;
-    text-align: justify;
     color: white;
 }
 .aboutcontent_title
@@ -570,7 +572,7 @@ footer
 
 .tablebanner
 {
-    height: 59.5vh;
+    height: 65vh;
     background-color: rgba(0, 0, 0, 0.35);
     display: flex;
     align-items: center;
@@ -597,8 +599,8 @@ footer
     font-weight: 400;
     font-size: large;
     line-height: 1.5;
-    text-align: justify;
     color: white;
+    
 }
 
 .contenttable_container
@@ -617,11 +619,12 @@ footer
 {
     max-width: 100%;
     overflow-x: auto;
-    margin: 20px;
+    margin: 50px auto;
 }
 
 table
 {
+
     width: 100%;
     background-image: url(grainy.jpg);
     color: white;
@@ -675,6 +678,10 @@ tbody tr:nth-child(even)
     background-image: url(grainy.jpg);
     
 }
+.extracontent span
+{
+    font-weight: 900;
+}
 
 .extracontent
 {
@@ -686,10 +693,7 @@ tbody tr:nth-child(even)
     line-height: 1.5;
     color: white;
 }
-.extracontent p
-{
-    text-align: justify;
-}
+
 
 .extracontent_title
 {
@@ -733,11 +737,278 @@ tbody tr:nth-child(even)
 }
 
 
+/* contact form page */
+.formbanner
+{
+    background-image: url('formbanner1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 65vh;
+}
+
+.formbanner_overlay
+{
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.formtitle
+{
+    margin-top: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 280%;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 900;
+}
+.formcaption
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    line-height: 1.5;
+    color: white;
+}
 
 
+/* actual form */
+.formcontainer
+{
+    background-image: url(grainy.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.fillable
+{
+    color: white;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    margin: 30px 10px;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.form-row
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;  
+    margin-top: 10px; 
+}
+
+.form-row input
+{
+    width: 500px;
+    min-width: 300px;
+    height: 30px;
+}
+#message
+{
+    height: 100px;
+}
+
+.submitbtn
+{
+    margin: 10px 0;
+    align-self: center;
+}
+input[type=submit]
+{
+    
+    color: white;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: -2px 2px 2px rgba(255, 255, 255, 0.493);
+    padding: 10px;
+    width: 300px;
+    letter-spacing: 3px;
+}
+
+.contactcontent span
+{
+    font-weight: 900;
+}
+
+.contactcontent
+{
+    width: 600px;
+    padding: 20px;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    line-height: 1.5;
+    color: white;
+}
 
 
+.contactcontent_title
+{
+    font-size: 280%;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 900;
+    
+}
 
+/* street page */
+
+.streetbanner
+{
+    background-image: url('streetbanner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 65vh;
+}
+
+.streetbanner_overlay
+{
+    height: 65vh;
+    background-color: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.street_title
+{
+    margin-top: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 280%;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 900;
+}
+.street_caption
+{
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    line-height: 1.5;
+    color: white;
+}
+
+/* gallery slider */
+.streetslider
+{
+    background-image: url(grainy.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.slidercontainer
+{
+    padding: 30px;
+    max-width: 650px;
+    min-width: 20%;
+
+}
+.sliderwrapper
+{
+    position: relative;
+    margin: 20px auto;
+    max-width: 100%;
+}
+.slider
+{
+    display: flex;
+    aspect-ratio: 1 / 1;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: -10px 10px 15px rgb(0, 0, 0);
+    
+}
+
+.slider img
+{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slidernav
+{
+    display: flex;
+    gap: 20px; 
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+
+.slidernav a
+{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+
+.slidernav a:hover
+{
+    opacity: 1;
+}
+
+
+.streetslider_content span
+{
+    font-weight: 900;
+}
+
+.streetslider_content
+{
+    width: 500px;
+    padding: 20px;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    line-height: 1.5;
+    color: white;
+}
+
+
+.streetslider_title
+{
+    font-size: 280%;
+    font-family: 'montserrat900',Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: 900;
+    
+}
 
 
 /*responsive design*/
@@ -786,6 +1057,10 @@ tbody tr:nth-child(even)
     {
         background-position: -200px 0;
     }
+    .form-row input
+    {
+        width: unset;
+    }
     
 }
 
@@ -795,11 +1070,6 @@ tbody tr:nth-child(even)
     {
         left: 5px;
         width: unset;
-    }
-    .background1
-    {
-        background-image: url('bg1small.jpg');
-        background-position: -200px -500px;
     }
     
 }

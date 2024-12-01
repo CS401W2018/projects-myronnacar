@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="finalproject.css" media="screen">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>About</title>
+    <title>Street Photo Gallery</title>
 
     <!--Link for the menu icons menu bar and x mark-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -13,7 +13,7 @@
 </head>
 <body>
 <main>
-        <div class="banner">
+        <div class="streetbanner">
             <div class="headers">
                 <div class="navbar">
 
@@ -23,9 +23,9 @@
 
                     <ul class="links">
                         <li><a class="pointer" href="index.html">HOME</a></li>
-                        <li><a class="current">ABOUT</a></li>
+                        <li><a class="pointer" href="about.html">ABOUT</a></li>
                         <li><a class="pointer" href="table.html">LEARN</a></li>
-                        <li><a class="pointer" href="street.html">STREET</a></li>
+                        <li><a class="current">STREET</a></li>
                         <li><a class="pointer" href="#">PORTRAIT</a></li>
                         <li><a class="pointer" href="form.html">CONTACT</a></li>
                     </ul>
@@ -37,52 +37,61 @@
 
                     <ul class="dropdown">
                         <li><a class="droppointer" href="index.html">HOME</a></li>
-                        <li><a class="current">ABOUT</a></li>
+                        <li><a class="droppointer" href="about.html">ABOUT</a></li>
                         <li><a class="droppointer" href="table.html">LEARN</a></li>
-                        <li><a class="droppointer" href="street.html">STREET</a></li>
+                        <li><a class="current">STREET</a></li>
                         <li><a class="droppointer" href="#">PORTRAIT</a></li>
                         <li><a class="droppointer" href="form.html">CONTACT</a></li>
                     </ul>
-                </div>
-
-                <div class="titlecontainer">
-                    <div class="title">
-                        Why 313Studio.?
+            </div>
+                
+                <div class="streetbanner_overlay">
+                    <div class="street_title">
+                        Mobile Street Photography Gallery
                     </div>
-                    <div class="titlecontent">
-                        313 isn't just a number—it's the house number of my home in Cebu, Philippines, where my love for photography began.
+                    <div class=street_caption>
+                        Check out some of my best street photos, all captured using just my mobile phone.
                     </div>
                     <div class="desc">
-                        KAHUKU, HAWAII
+                        Elgin Bridge, Singapore
                     </div>
                 </div>
         </div>
-        <div class="about">
-            <div class="aboutphoto">
-                <img class="img" src="about.jpg" alt="About Page Photo">
-            </div>
-            <div class="aboutcontent">
-                <div class="aboutcontent_title">
-                    Hey, I'm Myron!
+        
+        <div class="streetslider">
+            <div class="streetslider_content">
+                <div class="streetslider_title">
+                    Street Picks
                 </div>
                 <p>
-                    I'm the photographer behind <span>313Studio.</span> 
-                <p>
-                <p>
-                    I've always enjoyed finding beauty in the everyday, but it wasn't until the pandemic that I discovered my passion for photography. Like many others, I was looking for something meaningful to do, and that's when I found YouTube tutorials about photography. I got hooked right away.
+                    Here are a few of my favorite street photos taken from the streets of Hawaii. 
                 </p>
                 <p>
-                    I didn't have fancy cameras or equipment, but that did'nt matter. With just my mobile phone, I started taking photos and realized how much I love capturing moments, telling stories, and seeing the world in a new way.
-                </p>
-                <p>
-                    I'm a beginner photographer, now based in Hawaii, where I study at <span> Brigham Young University-Hawaii</span>. I'm majoring in <span>Information Technology</span>, but photography remains a big part of my life. As a Visual Arts minor, I'm excited to take courses in photography and continue learning and growing in this art form.
-                </p>
-                <p>
-                    <span>313Studio.</span> is proof that you don't need expensive gear to make art—just passion and creativity. Photography, for me, is about finding beauty in the ordinary and sharing those stories with others.
+                    <span>Scroll down to see more.</span> 
                 </p>
             </div>
+            <div class="slidercontainer">
+                <div class="sliderwrapper">
+                    <div class="slider">
+                        <img id="slide1" src="fs1.jpg" alt="street photo">
+                        <img id="slide2" src="fs2.JPG" alt="street photo">
+                        <img id="slide3" src="fs3.JPG" alt="street photo">
+                        <img id="slide4" src="fs4.JPG" alt="street photo">
+                        <img id="slide5" src="fs5.jpg" alt="street photo">
+                    </div>
+                    <div class="slidernav">
+                        <a href="#slide1"></a>
+                        <a href="#slide2"></a>
+                        <a href="#slide3"></a>
+                        <a href="#slide4"></a>
+                        <a href="#slide5"></a>
+                    </div>
+                </div>
+            </div>
         </div>
-                
+        
+
+        
 </main>
 <footer>
     <div class="logocontainer">

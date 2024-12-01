@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="finalproject.css" media="screen">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Contact</title>
+
+    <!--Link for the menu icons menu bar and x mark-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+<body>
+<main>
+        <div class="formbanner">
+            <div class="headers">
+                <div class="navbar">
+
+                    <div class="logo">
+                        <a href="index.html">313Studio.</a>
+                    </div>
+
+                    <ul class="links">
+                        <li><a class="pointer" href="index.html">HOME</a></li>
+                        <li><a class="pointer" href="about.html">ABOUT</a></li>
+                        <li><a class="pointer" href="table.html">LEARN</a></li>
+                        <li><a class="pointer" href="street.html">STREET</a></li>
+                        <li><a class="pointer" href="#">PORTRAIT</a></li>
+                        <li><a class="current">CONTACT</a></li>
+                    </ul>
+               
+                    <div class="togglebutton">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+
+                <ul class="dropdown">
+                    <li><a class="droppointer" href="index.html">HOME</a></li>
+                    <li><a class="droppointer" href="about.html">ABOUT</a></li>
+                    <li><a class="droppointer" href="table.html">LEARN</a></li>
+                    <li><a class="droppointer" href="street.html">STREET</a></li>
+                    <li><a class="droppointer" href="#">PORTRAIT</a></li>
+                    <li><a class="current">CONTACT</a></li>
+                </ul>
+                </div>
+                
+                <div class="formbanner_overlay">
+                    <div class="formtitle" id="success-message">
+                        Let's Connect!
+                    </div>
+                    <div class="formcaption" id="form-caption">
+                        Have questions, feedback, or collaboration ideas? I'd love to hear from you.
+                    </div>
+                    <div class="desc">
+                        Laie, Hawaii
+                    </div>
+                </div>
+        </div>
+
+        <div class="formcontainer" id="form-container">
+            
+            <div class="contactcontent">
+                    <div class="contactcontent_title">
+                        Where to Find Me?
+                    </div>
+                    <p>
+                        I'm currently based in the beautiful island of <span>Oahu, Hawaii</span> where the stunning landscapes inspire my photography. 
+                    </p>
+                    <p>
+                        If you're in the island and interested in a collaboration, photo session, or just want to connect, feel free to reach out! While most of my work is done with my mobile phone, I'm always open to new ideas and creative projects. 
+                    </p>
+            </div>
+            <div class="fillable">
+                <form id="checkform" action="processing.html" method="post">
+                    
+                    <div class="form-row">
+                        <label for="fname">First Name</label>
+                        <input id="fname" type="text" name="fname" required="required">
+                    </div>
+                            
+                    <div class="form-row">
+                        <label for="lname">Last Name</label>
+                        <input class="first" id="lname" type="text" name="lname" required="required">
+                    </div>
+
+                    
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required="required">
+                    </div>
+                    
+                    <div class="form-row">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" required="required">
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <div class="submitbtn">
+                        <input type="submit" value="SUBMIT">
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+</main>
+<footer>
+    <div class="logocontainer">
+        <div class="follow">
+            &nbsp;FOLLOW
+        </div>
+        <div class="socials">
+            <a href="https://www.facebook.com/myron.nacar"><img src="footerfb.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/myronnacar/"><img src="footerig.png" alt="Instagram"></a>
+            <a href="https://x.com/LuffyWillofd185"><img src="footerx.png" alt="X/Twitter"></a>
+            <a href="https://github.com/CS401W2018/projects-myronnacar"><img src="footergh.png" alt="Github"></a>
+        </div>
+    </div>
+   
+    <div class="copy">
+        &copy; 2024 313Studio. All rights reserved.
+    </div>
+</footer>
+    <script src="togglebutton.js"></script>
+    <script src="form.js"></script>
+    
+</body>
+</html>
