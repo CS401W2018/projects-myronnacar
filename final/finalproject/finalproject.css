@@ -86,14 +86,14 @@ body
     background-color: white;
 }
 
-.headers
+header
 {
     position: relative;
     padding: 10px 10px;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-.navbar
+nav
 {
     height: 30px;
     max-width: 1500px;
